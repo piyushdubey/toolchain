@@ -1,0 +1,15 @@
+meta {
+  name: general_list
+  type: http
+  seq: 2
+}
+
+get {
+  url: https://daily-onelake.dfs.fabric.microsoft.com/deletion_vector_ws/schema_lh2.Lakehouse/Tables/metadata/deltaemployee
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: <token_goes_here>
+}
